@@ -1,0 +1,503 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jasmine R. Fabrero | BSIT Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            Jasmine<span>.</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">✨ WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hello, World! <span>👋</span>
+            </h1>
+
+            <h2>
+                I'm <span>Jasmine R. Fabrero</span>
+            </h2>
+
+            <p class="hero-description">
+                Welcome to my digital space, where
+                <strong>technology meets creativity.</strong>
+            </p>
+
+            <p class="hero-subdescription">
+                Explore my journey as a BSIT student, creative editor,
+                and aspiring IT professional.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary-btn">
+                    Get to Know Me
+                </a>
+
+                <a href="#projects" class="btn secondary-btn">
+                    View My Work →
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-decoration decoration-one"></div>
+            <div class="image-decoration decoration-two"></div>
+
+            <!-- Replace with your own image -->
+            <img
+                src="images/jasmine.jpg"
+                alt="Jasmine R. Fabrero"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-header">
+
+            <p class="eyebrow">GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
+
+            <p>
+                A little introduction about who I am and
+                what I am passionate about.
+            </p>
+
+        </div>
+
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>
+                    Technology + Creativity = My Passion 💻✨
+                </h3>
+
+                <p>
+                    Hello! I am <strong>Jasmine R. Fabrero</strong>,
+                    currently taking up
+                    <strong>Bachelor of Science in Information Technology
+                    (BSIT)</strong>.
+                </p>
+
+                <p>
+                    I am passionate about technology, creativity, and
+                    digital innovation. As I continue my journey in
+                    Information Technology, I am learning more about
+                    programming, web development, computer systems,
+                    and other areas of technology.
+                </p>
+
+                <p>
+                    I also have experience working as an
+                    <strong>editor</strong>. This experience has helped me
+                    develop creativity, attention to detail, patience,
+                    and the ability to create engaging digital content.
+                </p>
+
+            </div>
+
+
+            <div class="about-info">
+
+                <div class="info-card">
+                    <span>🎓</span>
+                    <div>
+                        <h4>Education</h4>
+                        <p>Bachelor of Science in IT</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <span>🎬</span>
+                    <div>
+                        <h4>Experience</h4>
+                        <p>Creative Editor</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <span>🎯</span>
+                    <div>
+                        <h4>Goal</h4>
+                        <p>Aspiring IT Professional</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+
+        <div class="section-header">
+
+            <p class="eyebrow">WHAT I CAN DO</p>
+
+            <h2>My Skills</h2>
+
+            <p>
+                Skills that I continue to learn and improve.
+            </p>
+
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">💻</div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Creating and designing websites using HTML and CSS.
+                </p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🖥️</div>
+
+                <h3>Information Technology</h3>
+
+                <p>
+                    Learning programming, systems, and digital technology.
+                </p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🎬</div>
+
+                <h3>Content Editing</h3>
+
+                <p>
+                    Creating and improving creative digital content.
+                </p>
+            </div>
+
+
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+
+                <h3>Creative Design</h3>
+
+                <p>
+                    Combining creativity and technology to bring ideas to life.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+
+        <div class="section-header">
+
+            <p class="eyebrow">MY JOURNEY</p>
+
+            <h2>Experience & Learning</h2>
+
+            <p>
+                My journey in technology and creativity.
+            </p>
+
+        </div>
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Experience / Learning</th>
+                        <th>Skills Developed</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Information Technology</td>
+                        <td>BSIT Student</td>
+                        <td>Programming, Technology, Web Development</td>
+                    </tr>
+
+                    <tr>
+                        <td>Creative Editing</td>
+                        <td>Editor Experience</td>
+                        <td>Creativity, Digital Editing, Attention to Detail</td>
+                    </tr>
+
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Academic Projects</td>
+                        <td>HTML, CSS, Responsive Design</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+
+        <div class="section-header">
+
+            <p class="eyebrow">MY WORK</p>
+
+            <h2>Featured Projects</h2>
+
+            <p>
+                Projects that represent my journey in technology and creativity.
+            </p>
+
+        </div>
+
+
+        <div class="projects-container">
+
+            <article class="project-card">
+
+                <div class="project-number">01</div>
+
+                <h3>🌐 Personal Portfolio</h3>
+
+                <p>
+                    A responsive website created to showcase my profile,
+                    skills, experiences, and projects.
+                </p>
+
+                <a href="#home">Explore →</a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">02</div>
+
+                <h3>💻 Web Activities</h3>
+
+                <p>
+                    Academic projects focused on HTML, CSS, programming,
+                    and web development.
+                </p>
+
+                <a href="#skills">Explore →</a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">03</div>
+
+                <h3>🎬 Editing Projects</h3>
+
+                <p>
+                    Creative editing projects that showcase my creativity
+                    and experience as an editor.
+                </p>
+
+                <a href="#contact">Explore →</a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- GOALS -->
+    <section class="section" id="goals">
+
+        <div class="goals-container">
+
+            <p class="eyebrow">LOOKING FORWARD</p>
+
+            <h2>My Goals 🚀</h2>
+
+            <p>
+                My goal is to continuously improve my skills and knowledge
+                in Information Technology while exploring opportunities in
+                web development, digital technology, and creative media.
+            </p>
+
+            <p>
+                In the future, I hope to become a skilled IT professional
+                who can combine technical knowledge and creativity to create
+                useful, innovative, and meaningful digital experiences.
+            </p>
+
+            <a href="#contact" class="btn light-btn">
+                Let's Connect
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+        <div class="section-header">
+
+            <p class="eyebrow">GET IN TOUCH</p>
+
+            <h2>Let's Connect! 🤎</h2>
+
+            <p>
+                Have a question or want to connect?
+                Feel free to send me a message!
+            </p>
+
+        </div>
+
+
+        <form class="contact-form">
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="subject">Subject</label>
+
+                <select id="subject">
+
+                    <option>General Inquiry</option>
+                    <option>Project Collaboration</option>
+                    <option>Web Development</option>
+                    <option>Editing</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+                Send Message ✉️
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <a href="#home" class="footer-logo">
+            Jasmine<span>.</span>
+        </a>
+
+        <p>
+            © 2026 Jasmine R. Fabrero. All Rights Reserved.
+        </p>
+
+        <p class="footer-text">
+            BSIT Student • Creative Editor • Aspiring IT Professional 💻✨
+        </p>
+
+    </footer>
+
+</body>
+</html>
+```
